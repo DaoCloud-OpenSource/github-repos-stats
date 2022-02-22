@@ -28,7 +28,7 @@ var reposTitle = "## The CNCF repos\n"
 
 func init() {
 	flag.StringVar(&githubUserName, "username", "", "github user name")
-	flag.StringVar(&projectsPath, "projects-path", "/projects.json", "if with stared repos")
+	flag.StringVar(&projectsPath, "projects-path", "projects.json", "if with stared repos")
 }
 
 type Repos struct {
@@ -68,8 +68,9 @@ func fetchAllRepos(projectsPath string, client *github.Client) []*github.Reposit
 
 	var allRepos []*github.Repository
 	reposList := configFromFile.Spec.Repos
+	log.Println("repos: ", reposList)
 	for repo, _ := range reposList {
-		if len(strings.Split(repo, "/")) < 2 {
+		if len(strings.Split(repo, "/")) == 2 {
 			splits := strings.Split(repo, "/")
 			// org/reponame is splits
 			repository, _, err := client.Repositories.Get(context.Background(), splits[0], splits[1])
@@ -78,9 +79,12 @@ func fetchAllRepos(projectsPath string, client *github.Client) []*github.Reposit
 				continue
 			}
 			allRepos = append(allRepos, repository)
+		} else {
+			log.Printf("WARNING: skip repo: %s for error not a github repo", repo)
 		}
 
 	}
+	log.Println("repos: ", reposList)
 	return allRepos
 }
 
@@ -112,7 +116,7 @@ type RepoStatus struct {
 func makeReposString(repos []*github.Repository) string {
 	reposData := [][]string{}
 	for i, repo := range repos {
-		reposData = append(reposData, []string{strconv.Itoa(i + 1), *repo.Name, string(*repo.StargazersCount), (*repo.UpdatedAt).String()[:10], (*repo.CreatedAt).String()[:10], string(*repo.ForksCount)})
+		reposData = append(reposData, []string{strconv.Itoa(i + 1), *repo.Name, strconv.Itoa(*repo.StargazersCount), (*repo.UpdatedAt).String()[:10], (*repo.CreatedAt).String()[:10], strconv.Itoa(*repo.ForksCount)})
 	}
 	// reposData = append(reposData, []string{"sum", "", "", "", "", strconv.Itoa(total)})
 	reposString := makeMdTable(reposData, []string{"ID", "Repo", "Stars", "UpdatedAt", "CreatedAt", "ForksCount"})
@@ -129,6 +133,7 @@ func main() {
 	})
 
 	newContentString := makeReposString(repos)
+	log.Println(newContentString)
 
 	readMeFile := path.Join(os.Getenv("GITHUB_WORKSPACE"), "README.md")
 	readMeContent, err := ioutil.ReadFile(readMeFile)

@@ -8,7 +8,7 @@ inputs:
     required: false
   PROJECTS_PATH: 
     description: "file path for project lists; todo may support star projects like pacoxu:starred pacoxu:watched"
-    default: "/projects.json"
+    default: "projects.json"
 
 runs:
   using: "docker"

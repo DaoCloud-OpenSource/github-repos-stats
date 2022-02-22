@@ -5,6 +5,8 @@ RUN apk add git
 RUN  go get github.com/google/go-github/v42@v42.0.0 \
     && go get "github.com/olekukonko/tablewriter"
 
-COPY . /
+WORKDIR /root
 
-ENTRYPOINT ["go", "run", "/github.go"]
+COPY . /root
+
+ENTRYPOINT ["go", "run", "github.go"]
