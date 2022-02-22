@@ -1,0 +1,12 @@
+{ 
+    "spec": {
+        "repos": {
+            "kubernetes/kubernetes": "",
+            "containerd/containerd": "",
+            "istio/istio": "",
+            "merbridge/merbridge": "",
+            "clusterpedia-io/clusterpedia": ""
+        }
+    },
+    "status": {}
+}

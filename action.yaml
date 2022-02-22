@@ -1,0 +1,24 @@
+name: "GitHub Repos' Status"
+icon: "calendar"
+description: "Generate github repos' status using GitHub Actions"
+inputs:
+  GH_USERNAME:
+    description: "Your GitHub username"
+    default: ${{ github.repository_owner }}
+    required: false
+  PROJECTS_PATH: 
+    description: "file path for project lists; todo may support star projects like pacoxu:starred pacoxu:watched"
+    default: "/projects.json"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - "-username"
+    - ${{ inputs.GH_USERNAME }}
+    - "-projects-list-path"
+    - ${{ inputs.PROJECTS_PATH }}
+
+branding:
+  icon: github
+  color: gray-dark
