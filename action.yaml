@@ -16,7 +16,7 @@ runs:
   args:
     - "-username"
     - ${{ inputs.GH_USERNAME }}
-    - "-projects-list-path"
+    - "-projects-path"
     - ${{ inputs.PROJECTS_PATH }}
 
 branding:

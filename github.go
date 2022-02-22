@@ -140,7 +140,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	re := regexp.MustCompile(`(?s)(<!--START_SECTION:my_github-->)(.*)(<!--END_SECTION:my_github-->)`)
+	re := regexp.MustCompile(`(?s)(<!--START_SECTION:github_repos-->)(.*)(<!--END_SECTION:github_repos-->)`)
 
 	newContent := []byte(re.ReplaceAllString(string(readMeContent), `$1`+"\n"+newContentString+`$3`))
 	err = ioutil.WriteFile(readMeFile, newContent, 0644)
