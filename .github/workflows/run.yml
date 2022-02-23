@@ -26,7 +26,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELE_CHAT_ID }}
 
       - name: My GitHub Status
-        uses: pacoxu/github-repo-stats@v0.0.1
+        uses: pacoxu/github-repos-stats@v0.0.1
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
