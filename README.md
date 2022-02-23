@@ -9,3 +9,4 @@
 
 docker build . -t github-repo-stats:v0.1.0
 
+following https://github.com/yihong0618/github-readme-stats style.
