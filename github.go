@@ -133,9 +133,10 @@ func main() {
 	})
 
 	newContentString := makeReposString(repos)
-	log.Println(newContentString)
+	log.Println("Repos Status: \n", newContentString)
 
 	readMeFile := path.Join(os.Getenv("GITHUB_WORKSPACE"), "README.md")
+	log.Println("README.md path: ", readMeFile)
 	readMeContent, err := ioutil.ReadFile(readMeFile)
 	if err != nil {
 		panic(err)
