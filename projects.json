@@ -1,28 +1,15 @@
 { 
     "spec": {
         "repos": {
-            "piraeusdatastore/piraeus": "",
-            "merbridge/merbridge": "",
-            "clusterpedia-io/clusterpedia": "",
-            "klts-io/kubernetes-lts": "",
-            "ferry-proxy/ferry": "",
-            "kubeedge/kubeedge": "",
-            "chaos-mesh/chaos-mesh": "",
-            "karmada-io/karmada": "",
-            "kubesphere/kubesphere": "",
-            "volcano-sh/volcano": "",
-            "kubeovn/kube-ovn": "",
-            "OpenFunction/OpenFunction": "",
-            "clusternet/clusternet": "",
-            "FabEdge/fabedge": "",
-            "superedge/superedge": "",
-            "carina-io/carina": "",
-            "bfenetworks/bfe": "",
-            "openelb/openelb": "",
-            "oam-dev/kubevela": "",
-            "openyurtio/openyurt": "",
-            "dragonflyoss/Dragonfly": "",
-            "dragonflyoss/Dragonfly2": ""
+            "clusterpedia-io/clusterpedia": "multi cluster resource query",
+            "karmada-io/karmada": "multi cluster management",
+            "clusternet/clusternet": "multi cluster management",
+            "kubernetes-sigs/cluster-api": "",
+            "kubernetes-sigs/kubefed": "multi cluster federation",
+            "submariner-io/submariner": "multi cluster cni",
+            "kubernetes-sigs/mcs-api": "",
+            "ferry-proxy/ferry": "proxy & tunnel for multi cluster communicaiton",
+            "kubesphere/tower": "proxy for multi cluster communication"
         }
     },
     "status": {}
