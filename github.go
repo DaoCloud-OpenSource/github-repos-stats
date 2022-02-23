@@ -5,6 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"flag"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -119,7 +120,8 @@ type RepoStatus struct {
 func makeReposString(repos []*github.Repository) string {
 	reposData := [][]string{}
 	for i, repo := range repos {
-		reposData = append(reposData, []string{strconv.Itoa(i + 1), *repo.Name, strconv.Itoa(*repo.StargazersCount), (*repo.UpdatedAt).String()[:10], (*repo.CreatedAt).String()[:10], strconv.Itoa(*repo.ForksCount)})
+		repoWithLink := fmt.Sprintf("(%s)[%s]", *repo.Name, *repo.HTMLURL)
+		reposData = append(reposData, []string{strconv.Itoa(i + 1), repoWithLink, strconv.Itoa(*repo.StargazersCount), (*repo.UpdatedAt).String()[:10], (*repo.CreatedAt).String()[:10], strconv.Itoa(*repo.ForksCount)})
 	}
 	// reposData = append(reposData, []string{"sum", "", "", "", "", strconv.Itoa(total)})
 	reposString := makeMdTable(reposData, []string{"ID", "Repo", "Stars", "UpdatedAt", "CreatedAt", "ForksCount"})
