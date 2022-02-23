@@ -1,0 +1,26 @@
+{ 
+    "spec": {
+        "repos": {
+            "kubernetes/kubernetes": "",
+            "containerd/containerd": "",
+            "istio/istio": "",
+            "envoyproxy/envoy": "",
+            "helm/helm": "",
+            "prometheus/prometheus": "",
+            "moby/moby": "",
+            "coredns/coredns": "",
+            "projectcalico/calico": "",
+            "opencontainers/runc": "",
+            "kubernetes/ingress-nginx": "",
+            "flannel-io/flannel": "",
+            "vmware-tanzu/velero": "",
+            "etcd-io/etcd": "",
+            "torvalds/linux": "",
+            "cilium/cilium": "",
+            "knative/serving": "",
+            "kubernetes-sigs/cluster-api": "",
+            "goharbor/harbor": ""
+        }
+    },
+    "status": {}
+}

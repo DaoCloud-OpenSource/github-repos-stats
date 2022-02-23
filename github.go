@@ -53,7 +53,7 @@ func readFile(path string) (string, error) {
 	return string(content), err
 }
 
-func fetchAllRepos(projectsPath string, client *github.Client) []*github.Repository {
+func fetchAllRepos(projectsPath string, client *github.Client) ([]*github.Repository, []string) {
 	// load repos from json
 	repos, err := readFile(projectsPath)
 	if err != nil {
@@ -69,6 +69,8 @@ func fetchAllRepos(projectsPath string, client *github.Client) []*github.Reposit
 	var allRepos []*github.Repository
 	reposList := configFromFile.Spec.Repos
 	log.Println("repos: ", reposList)
+	// #TODO #2 Github has a rate limit of 60 per hour, so don't add more than 60 projects now
+	var skippedRepos []string
 	for repo, _ := range reposList {
 		if len(strings.Split(repo, "/")) == 2 {
 			splits := strings.Split(repo, "/")
@@ -76,6 +78,7 @@ func fetchAllRepos(projectsPath string, client *github.Client) []*github.Reposit
 			repository, _, err := client.Repositories.Get(context.Background(), splits[0], splits[1])
 			if err != nil {
 				log.Printf("WARNING: skip repo: %s for error: %s", repo, err)
+				skippedRepos = append(skippedRepos, repo)
 				continue
 			}
 			allRepos = append(allRepos, repository)
@@ -85,7 +88,7 @@ func fetchAllRepos(projectsPath string, client *github.Client) []*github.Reposit
 
 	}
 	log.Println("repos: ", reposList)
-	return allRepos
+	return allRepos, skippedRepos
 }
 
 func makeMdTable(data [][]string, header []string) string {
@@ -126,7 +129,7 @@ func makeReposString(repos []*github.Repository) string {
 func main() {
 	flag.Parse()
 	client := github.NewClient(nil)
-	repos := fetchAllRepos(projectsPath, client)
+	repos, skippedRepos := fetchAllRepos(projectsPath, client)
 	// change sort logic here
 	sort.Slice(repos[:], func(i, j int) bool {
 		return *repos[j].StargazersCount < *repos[i].StargazersCount
@@ -134,6 +137,9 @@ func main() {
 
 	newContentString := makeReposString(repos)
 	log.Println("Repos Status: \n", newContentString)
+	newContentString += "\n\n"
+	newContentString += "## Skipped repos\n"
+	newContentString += strings.Join(skippedRepos, "\n")
 
 	readMeFile := path.Join(os.Getenv("GITHUB_WORKSPACE"), "README.md")
 	log.Println("README.md path: ", readMeFile)
