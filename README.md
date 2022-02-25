@@ -16,7 +16,6 @@
 |  9 | [ferry](https://github.com/ferry-proxy/ferry)                   |     8 | 2022-02-18 | 2021-10-18 |          1 |
 
 
-
 ## Skipped repos
 <!--END_SECTION:github_repos-->
 

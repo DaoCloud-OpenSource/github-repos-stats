@@ -9,7 +9,8 @@
             "submariner-io/submariner": "multi cluster cni",
             "kubernetes-sigs/mcs-api": "",
             "ferry-proxy/ferry": "proxy & tunnel for multi cluster communicaiton",
-            "kubesphere/tower": "proxy for multi cluster communication"
+            "kubesphere/tower": "proxy for multi cluster communication",
+            "open-cluster-management-io/OCM": ""
         }
     },
     "status": {}
