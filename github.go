@@ -122,6 +122,13 @@ func makeReposString(repos []*github.Repository) string {
 	reposData := [][]string{}
 	for i, repo := range repos {
 		repoWithLink := fmt.Sprintf("[%s](%s)", *repo.Name, *repo.HTMLURL)
+		var description string
+		if repo.Description == nil {
+			description = *repo.Name
+		} else {
+			description = *repo.Description
+		}
+		// *description = strings.Replace(*description, "\n", "<br>", -1)
 		reposData = append(
 			reposData,
 			[]string{
@@ -130,7 +137,7 @@ func makeReposString(repos []*github.Repository) string {
 				(*repo.UpdatedAt).String()[:10],
 				(*repo.CreatedAt).String()[:10],
 				strconv.Itoa(*repo.ForksCount),
-				strings.Replace(*repo.Description, "\n", "<br>", -1),
+				description,
 			},
 		)
 	}
