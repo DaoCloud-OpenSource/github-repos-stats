@@ -2,6 +2,8 @@
     "spec": {
         "repos": {
             "piraeusdatastore/piraeus": "",
+            "hwameistor/local-storage": "",
+            "hwameistor/local-disk-manager": "",
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
