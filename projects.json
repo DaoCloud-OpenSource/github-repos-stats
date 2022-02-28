@@ -1,16 +1,31 @@
 { 
     "spec": {
         "repos": {
-            "clusterpedia-io/clusterpedia": "multi cluster resource query",
-            "karmada-io/karmada": "multi cluster management",
+            "clusterpedia-io/clusterpedia": "an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources",
+            "karmada-io/karmada": "Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration",
             "clusternet/clusternet": "multi cluster management",
-            "kubernetes-sigs/cluster-api": "",
+            "kubernetes-sigs/cluster-api": "Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.",
             "kubernetes-sigs/kubefed": "multi cluster federation",
             "submariner-io/submariner": "multi cluster cni",
-            "kubernetes-sigs/mcs-api": "",
+            "kubernetes-sigs/mcs-api": "Multi-Cluster Service APIs.",
             "ferry-proxy/ferry": "proxy & tunnel for multi cluster communicaiton",
             "kubesphere/tower": "proxy for multi cluster communication",
-            "open-cluster-management-io/OCM": ""
+            "open-cluster-management-io/OCM": "",
+            "G-Research/armada": "A multi-cluster batch queuing system for high-throughput workloads",
+            "Qihoo360/wayne": "Kubernetes multi-cluster management and publishing platform",
+            "GoogleCloudPlatform/k8s-multicluster-ingress": "kubemci: Command line tool to configure L7 load balancers using multiple kubernetes clusters",
+            "tkestack/tke": "Native Kubernetes container management platform supporting multi-tenant and multi-cluster",
+            "fluxcd/flux2-multi-tenancy": "Manage multi-tenant clusters with Flux",
+            "submariner-io/submariner": "Connect all your Kubernetes clusters, no matter where they are in the world.",
+            "Clivern/Beetle": "🔥 Kubernetes multi-cluster deployment automation service.",
+            "kubernetes-sigs/about-api": "A CRD for arbitrary properties about a cluster",
+            "kubernetes-sigs/work-api": "Kubernetes Work API: a common API to distribute workload to multiple clusters",
+            "kubernetes-retired/cluster-registry": "[End of Life] Cluster Registry API",
+            "vllry/cluster-reconciler": "This is prototype for reconciling the desired state of a cluster, for arbitrary resources.",
+            "coredns/multicluster-dns": "An example of how to use the kubernetai plugin to do multicluster DNS-based service discovery",
+            "wish/ctl": "multi-cluster kubectl",
+            "skupperproject/skupper": "Multicloud communication for Kubernetes",
+            "hjacobs/kube-ops-view": "Kubernetes Operational View - read-only system dashboard for multiple K8s clusters."
         }
     },
     "status": {}
