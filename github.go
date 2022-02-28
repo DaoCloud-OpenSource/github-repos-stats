@@ -129,7 +129,7 @@ func makeReposString(repos []*github.Repository) string {
 				(*repo.UpdatedAt).String()[:10],
 				(*repo.CreatedAt).String()[:10],
 				strconv.Itoa(*repo.ForksCount),
-				*repo.Description,
+				strings.Replace(*repo.Description, "\n", "<br>", -1),
 			},
 		)
 	}
