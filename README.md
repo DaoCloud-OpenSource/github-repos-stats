@@ -47,15 +47,15 @@
 |    |                                                                 |       |            |            |            | Function-as-a-Service Platform |
 | 15 | [fabedge](https://github.com/FabEdge/fabedge)                   |   336 | 2022-02-25 | 2021-07-16 |         38 | Secure Edge Networking         |
 |    |                                                                 |       |            |            |            | Solution Based On Kubernetes   |
-| 16 | [Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)        |   300 | 2022-02-26 | 2020-11-04 |         63 | Dragonfly is an intelligent    |
+| 16 | [piraeus](https://github.com/piraeusdatastore/piraeus)          |   300 | 2022-02-19 | 2019-12-05 |         35 | High Available Datastore for   |
+|    |                                                                 |       |            |            |            | Kubernetes                     |
+| 17 | [Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)        |   300 | 2022-02-26 | 2020-11-04 |         63 | Dragonfly is an intelligent    |
 |    |                                                                 |       |            |            |            | P2P based image and file       |
 |    |                                                                 |       |            |            |            | distribution system, it        |
 |    |                                                                 |       |            |            |            | also provides a variety of     |
 |    |                                                                 |       |            |            |            | enterprise-level (efficiency,  |
 |    |                                                                 |       |            |            |            | stability, safety, low-cost)   |
 |    |                                                                 |       |            |            |            | product features.              |
-| 17 | [piraeus](https://github.com/piraeusdatastore/piraeus)          |   300 | 2022-02-19 | 2019-12-05 |         35 | High Available Datastore for   |
-|    |                                                                 |       |            |            |            | Kubernetes                     |
 | 18 | [carina](https://github.com/carina-io/carina)                   |   256 | 2022-02-24 | 2021-08-18 |         27 | Carina: an high performance    |
 |    |                                                                 |       |            |            |            | and ops-free local storage for |
 |    |                                                                 |       |            |            |            | kubernetes                     |
