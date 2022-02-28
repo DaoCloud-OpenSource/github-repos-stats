@@ -121,10 +121,20 @@ func makeReposString(repos []*github.Repository) string {
 	reposData := [][]string{}
 	for i, repo := range repos {
 		repoWithLink := fmt.Sprintf("[%s](%s)", *repo.Name, *repo.HTMLURL)
-		reposData = append(reposData, []string{strconv.Itoa(i + 1), repoWithLink, strconv.Itoa(*repo.StargazersCount), (*repo.UpdatedAt).String()[:10], (*repo.CreatedAt).String()[:10], strconv.Itoa(*repo.ForksCount)})
+		reposData = append(
+			reposData,
+			[]string{
+				strconv.Itoa(i + 1),
+				repoWithLink, strconv.Itoa(*repo.StargazersCount),
+				(*repo.UpdatedAt).String()[:10],
+				(*repo.CreatedAt).String()[:10],
+				strconv.Itoa(*repo.ForksCount),
+				*repo.Description,
+			},
+		)
 	}
 	// reposData = append(reposData, []string{"sum", "", "", "", "", strconv.Itoa(total)})
-	reposString := makeMdTable(reposData, []string{"ID", "Repo", "Stars", "UpdatedAt", "CreatedAt", "ForksCount"})
+	reposString := makeMdTable(reposData, []string{"ID", "Repo", "Stars", "UpdatedAt", "CreatedAt", "ForksCount", "Descriptions"})
 	return reposTitle + reposString + "\n"
 }
 
