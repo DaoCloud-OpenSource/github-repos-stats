@@ -19,12 +19,10 @@
             "Clivern/Beetle": "🔥 Kubernetes multi-cluster deployment automation service.",
             "kubernetes-sigs/about-api": "A CRD for arbitrary properties about a cluster",
             "kubernetes-sigs/work-api": "Kubernetes Work API: a common API to distribute workload to multiple clusters",
-            "kubernetes-retired/cluster-registry": "[End of Life] Cluster Registry API",
             "vllry/cluster-reconciler": "This is prototype for reconciling the desired state of a cluster, for arbitrary resources.",
             "coredns/multicluster-dns": "An example of how to use the kubernetai plugin to do multicluster DNS-based service discovery",
             "wish/ctl": "multi-cluster kubectl",
-            "skupperproject/skupper": "Multicloud communication for Kubernetes",
-            "hjacobs/kube-ops-view": "Kubernetes Operational View - read-only system dashboard for multiple K8s clusters."
+            "skupperproject/skupper": "Multicloud communication for Kubernetes"
         }
     },
     "status": {}
