@@ -24,7 +24,18 @@
             "oam-dev/kubevela": "",
             "openyurtio/openyurt": "",
             "dragonflyoss/Dragonfly": "",
-            "dragonflyoss/Dragonfly2": ""
+            "dragonflyoss/Dragonfly2": "",
+            "kubecube-io/KubeCube": "",
+            "openpitrix/openpitrix": "",
+            "radondb/radon": "",
+            "KubeOperator/KubeOperator": "",
+            "cni-genie/CNI-Genie": "",
+            "goodrain/rainbond": "",
+            "vmware-tanzu/octant": "",
+            "vmware-tanzu/community-edition": "",
+            "vmware-tanzu/velero": "",
+            "vmware-tanzu/carvel": "",
+            "vmware-tanzu/sonobuoy": ""            
         }
     },
     "status": {}
