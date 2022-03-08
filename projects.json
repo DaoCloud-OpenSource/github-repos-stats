@@ -37,7 +37,8 @@
             "vmware-tanzu/carvel": "",
             "vmware-tanzu/sonobuoy": "",
             "kubediag/kubediag": "",
-            "apache/incubator-kyuubi": ""
+            "apache/incubator-kyuubi": "",
+            "fanux/sealos": ""
         }
     },
     "status": {}
