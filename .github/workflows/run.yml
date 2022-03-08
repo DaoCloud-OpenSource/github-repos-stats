@@ -1,4 +1,4 @@
-name: Go
+name: Run for main(all CNCF China related projects)
 
 on:
   workflow_dispatch:
