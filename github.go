@@ -98,7 +98,7 @@ func makeMdTable(data [][]string, header []string) string {
 	table.SetHeader(header)
 	table.SetBorders(tablewriter.Border{Left: true, Top: false, Right: true, Bottom: false})
 	table.SetCenterSeparator("|")
-	table.SetColWidth(300)
+	table.SetColWidth(400)
 	table.AppendBulk(data)
 	table.Render()
 	return tableString.String()
