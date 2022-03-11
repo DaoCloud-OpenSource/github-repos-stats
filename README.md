@@ -1,6 +1,11 @@
 # github-repos-stats
 
 # watching repositories status
+
+This branch is for CNCF repos in China.
+- [Mutli-Clusters related projects](https://github.com/pacoxu/github-repos-stats/tree/multi-clusters)
+
+
 <!--START_SECTION:github_repos-->
 ## The CNCF repos
 | ID |                                  REPO                                  | STARS | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |                                                                                                                                                                         DESCRIPTIONS                                                                                                                                                                          |
