@@ -1,6 +1,5 @@
-# github-repos-stats
+# Kubernetes Multi-Cluster related Projects
 
-# watching repositories status
 <!--START_SECTION:github_repos-->
 ## The CNCF repos
 | ID |                                            REPO                                             | STARS | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |                                                                                                DESCRIPTIONS                                                                                                |
