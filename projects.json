@@ -23,7 +23,7 @@
             "coredns/multicluster-dns": "An example of how to use the kubernetai plugin to do multicluster DNS-based service discovery",
             "wish/ctl": "multi-cluster kubectl",
             "skupperproject/skupper": "Multicloud communication for Kubernetes",
-            "wzshiming/fake-kubelet": "multi clusters simulator for testing"
+            "wzshiming/fake-k8s": "multi clusters simulator for testing"
         }
     },
     "status": {}
