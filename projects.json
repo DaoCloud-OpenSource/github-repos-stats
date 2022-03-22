@@ -2,6 +2,7 @@
     "spec": {
         "repos": {
             "piraeusdatastore/piraeus": "",
+            "piraeusdatastore/piraeus-operator": "",
             "hwameistor/local-storage": "",
             "hwameistor/local-disk-manager": "",
             "merbridge/merbridge": "",
