@@ -1,6 +1,7 @@
 { 
     "spec": {
         "repos": {
+            "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
             "hwameistor/local-storage": "",
