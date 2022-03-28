@@ -1,6 +1,7 @@
 { 
     "spec": {
         "repos": {
+            "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
