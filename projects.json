@@ -1,6 +1,8 @@
 { 
     "spec": {
         "repos": {
+            "wzshiming/fake-kubelet": "",
+            "wzshiming/fake-k8s": "",
             "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
