@@ -39,7 +39,6 @@
             "vmware-tanzu/octant": "",
             "vmware-tanzu/community-edition": "",
             "vmware-tanzu/velero": "",
-            "vmware-tanzu/carvel": "",
             "vmware-tanzu/sonobuoy": "",
             "kubediag/kubediag": "",
             "apache/incubator-kyuubi": "",
