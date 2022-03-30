@@ -1,8 +1,6 @@
 { 
     "spec": {
         "repos": {
-            "wzshiming/fake-kubelet": "",
-            "wzshiming/fake-k8s": "",
             "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
@@ -12,12 +10,7 @@
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
-            "ferry-proxy/ferry": "",
-            "DaoCloud/dao-2048": "",
-            "DaoCloud/public-image-mirror": "",
-            "DaoCloud/daochain": "",
-            "DaoCloud/dao-style": ""
-
+            "DaoCloud/public-image-mirror": ""
         }
     },
     "status": {}
