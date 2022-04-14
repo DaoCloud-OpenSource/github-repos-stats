@@ -8,7 +8,9 @@
             "cilium/cilium": "",
             "intel/istio-tcpip-bypass": "",
             "aquasecurity/tracee": "",
-            "iovisor/bpftrace": ""
+            "iovisor/bpftrace": "",
+            "kubernetes-sigs/security-profiles-operator": "",
+            "Kindling-project/space-capsule": ""
         }
     },
     "status": {}
