@@ -11,7 +11,10 @@
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
-            "DaoCloud/public-image-mirror": ""
+            "DaoCloud/public-image-mirror": "",
+            "cloudtty/cloudtty": "",
+            "wzshiming/fake-k8s": "",
+            "wzshiming/fake-kubelet": ""
         }
     },
     "status": {}
