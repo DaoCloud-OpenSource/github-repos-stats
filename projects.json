@@ -5,6 +5,7 @@
             "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
+            "hwameistor/hwameistor": "",
             "hwameistor/local-storage": "",
             "hwameistor/local-disk-manager": "",
             "merbridge/merbridge": "",
