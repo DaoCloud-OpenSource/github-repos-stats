@@ -14,6 +14,7 @@
             "ehids/ecapture": "",
             "cilium/tetragon": "",
             "pixie-io/pixie": "",
+            "zoidbergwill/awesome-ebpf": "",
             "coroot/coroot-node-agent": ""
         }
     },
