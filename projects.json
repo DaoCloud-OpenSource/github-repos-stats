@@ -10,7 +10,11 @@
             "aquasecurity/tracee": "",
             "iovisor/bpftrace": "",
             "kubernetes-sigs/security-profiles-operator": "",
-            "Kindling-project/space-capsule": ""
+            "Kindling-project/space-capsule": "",
+            "ehids/ecapture": "",
+            "cilium/tetragon": "",
+            "pixie-io/pixie": "",
+            "coroot/coroot-node-agent": ""
         }
     },
     "status": {}
