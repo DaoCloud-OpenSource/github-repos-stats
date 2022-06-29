@@ -12,6 +12,11 @@
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
             "DaoCloud/public-image-mirror": "",
+            "DaoCloud/dao-2048": "",            
+            "DaoCloud/daochain": "",            
+            "DaoCloud/dao-style": "",   
+            "DaoCloud/ropee": "",   
+            "DaoCloud/ropee": "",               
             "cloudtty/cloudtty": "",
             "wzshiming/fake-k8s": "",
             "wzshiming/fake-kubelet": ""
