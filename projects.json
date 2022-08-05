@@ -16,10 +16,8 @@
             "DaoCloud/daochain": "",            
             "DaoCloud/dao-style": "",   
             "DaoCloud/ropee": "",   
-            "DaoCloud/ropee": "",               
             "cloudtty/cloudtty": "",
-            "wzshiming/fake-k8s": "",
-            "wzshiming/fake-kubelet": ""
+            "kubernetes-sigs/kwok": ""
         }
     },
     "status": {}
