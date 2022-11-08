@@ -9,8 +9,8 @@ on:
       - main
 
 env:
-  GITHUB_NAME: pacoxu
-  GITHUB_EMAIL: roollingstone@gmail.com
+  GITHUB_NAME: pacoxu-bot
+  GITHUB_EMAIL: paco2023@163.com
 
 jobs:
   build:
