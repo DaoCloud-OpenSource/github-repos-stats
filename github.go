@@ -25,7 +25,7 @@ var (
 	projectsPath   string
 )
 
-var reposTitle = "## The CNCF repos\n"
+var reposTitle = "### The intersted repos\n"
 
 func init() {
 	flag.StringVar(&githubUserName, "username", "", "github user name")
@@ -158,7 +158,7 @@ func main() {
 	newContentString := makeReposString(repos)
 	log.Println("Repos Status: \n", newContentString)
 	newContentString += "\n\n"
-	newContentString += "## Skipped repos\n"
+	newContentString += "#### Skipped repos\n"
 	newContentString += strings.Join(skippedRepos, "\n")
 
 	readMeFile := path.Join(os.Getenv("GITHUB_WORKSPACE"), "README.md")
