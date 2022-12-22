@@ -6,8 +6,6 @@
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
             "hwameistor/hwameistor": "",
-            "hwameistor/local-disk-manager": "",
-            "hwameistor/local-storage": "",
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
