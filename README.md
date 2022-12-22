@@ -2,7 +2,7 @@
 
 # watching repositories status
 
-This branch is for CNCF repos in China.
+This branch is for CNCF related repos of DaoCloud.
 - [Mutli-Clusters related projects](https://github.com/pacoxu/github-repos-stats/tree/multi-clusters)
 
 
