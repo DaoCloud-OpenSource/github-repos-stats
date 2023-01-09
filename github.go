@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"path"
 	"regexp"
@@ -18,6 +19,7 @@ import (
 
 	"github.com/google/go-github/v42/github"
 	"github.com/olekukonko/tablewriter"
+	"golang.org/x/oauth2"
 )
 
 var (
@@ -72,21 +74,37 @@ func fetchAllRepos(projectsPath string, client *github.Client) ([]*github.Reposi
 	log.Println("repos: ", reposList)
 	// #TODO #2 Github has a rate limit of 60 per hour, so don't add more than 60 projects now
 	var skippedRepos []string
-	for repo, _ := range reposList {
+	for repo := range reposList {
 		if len(strings.Split(repo, "/")) == 2 {
 			splits := strings.Split(repo, "/")
 			// org/reponame is splits
 			repository, _, err := client.Repositories.Get(context.Background(), splits[0], splits[1])
 			if err != nil {
-				log.Printf("WARNING: skip repo: %s for error: %s", repo, err)
-				skippedRepos = append(skippedRepos, repo)
-				continue
+				if strings.Contains(err.Error(), "403 API rate limit") {
+					if client == nil {
+						log.Printf("WARNING: sleep 3600 seconds for github API rate limit 60 per hour: %s ", repo)
+						time.Sleep(3600 * time.Second)
+					} else {
+						log.Printf("WARNING: sleep 3600 seconds for github API rate limit 60 per hour: %s ", repo)
+						time.Sleep(60 * time.Second)
+					}
+				}
+				repository, _, err = client.Repositories.Get(context.Background(), splits[0], splits[1])
+				if err != nil {
+					log.Printf("WARNING: skip repo: %s for error: %s", repo, err)
+					skippedRepos = append(skippedRepos, repo)
+					continue
+				}
 			}
 			allRepos = append(allRepos, repository)
 		} else {
 			log.Printf("WARNING: skip repo: %s for error not a github repo", repo)
 		}
-
+		// api limit by default 60 times per hour
+		if client == nil {
+			log.Println("Info: sleep 60 seconds as github API rate limit is 60 per hour for unauthenized user.")
+			time.Sleep(60 * time.Second)
+		}
 	}
 	log.Println("repos: ", reposList)
 	return allRepos, skippedRepos
@@ -137,8 +155,8 @@ func makeReposString(repos []*github.Repository) string {
 				(*repo.UpdatedAt).String()[:10],
 				(*repo.CreatedAt).String()[:10],
 				strconv.Itoa(*repo.ForksCount),
-				description,
 				strconv.FormatBool(*repo.Archived),
+				description,
 			},
 		)
 	}
@@ -149,7 +167,19 @@ func makeReposString(repos []*github.Repository) string {
 
 func main() {
 	flag.Parse()
-	client := github.NewClient(nil)
+	var client *github.Client
+	if token, ok := os.LookupEnv("GITHUB_TOKEN"); ok {
+		httpClient := &http.Client{
+			Transport: &oauth2.Transport{
+				Base:   http.DefaultTransport,
+				Source: oauth2.ReuseTokenSource(nil, oauth2.StaticTokenSource(&oauth2.Token{AccessToken: token})),
+			},
+		}
+		client = github.NewClient(httpClient)
+	} else {
+		client = github.NewClient(nil)
+
+	}
 	repos, skippedRepos := fetchAllRepos(projectsPath, client)
 	// change sort logic here
 	sort.Slice(repos[:], func(i, j int) bool {
