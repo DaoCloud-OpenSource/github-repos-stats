@@ -6,11 +6,12 @@ on:
     - cron: "0 8 * * 1-5"
   push:
     branches:
-      - main
+      - daocloud
 
 env:
-  GITHUB_NAME: pacoxu
-  GITHUB_EMAIL: roollingstone@gmail.com
+  GITHUB_NAME: pacoxu-bot
+  GITHUB_EMAIL: paco2023@163.com
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -20,7 +21,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: My GitHub Status
-        uses: pacoxu/github-repos-stats@main
+        uses: pacoxu/github-repos-stats@v0.0.4
+        env:
+          GITHUB_TOKEN: "${{ env.GITHUB_TOKEN }}"
       - name: Push README
         run: |
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
