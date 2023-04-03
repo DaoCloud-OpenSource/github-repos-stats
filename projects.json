@@ -1,14 +1,11 @@
 { 
     "spec": {
         "repos": {
-            "wzshiming/fake-kubelet": "",
-            "wzshiming/fake-k8s": "",
-            "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
-            "hwameistor/local-storage": "",
-            "hwameistor/local-disk-manager": "",
+            "hwameistor/hwameistor": "",
+            "kubernetes-sigs/kwok": ""，
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
