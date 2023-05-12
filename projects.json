@@ -15,8 +15,10 @@
             "DaoCloud/daochain": "",            
             "DaoCloud/dao-style": "",   
             "DaoCloud/ropee": "",   
+            "DaoCloud/DaoCloud-docs": "",
             "cloudtty/cloudtty": "",
-            "kubernetes-sigs/kwok": ""
+            "kubernetes-sigs/kwok": "",
+            "kubernetes-sigs/kueue": ""
         }
     },
     "status": {}
