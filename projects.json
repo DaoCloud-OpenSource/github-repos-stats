@@ -18,7 +18,8 @@
             "DaoCloud/DaoCloud-docs": "",
             "cloudtty/cloudtty": "",
             "kubernetes-sigs/kwok": "",
-            "kubernetes-sigs/kueue": ""
+            "kubernetes-sigs/kueue": "",
+            "kubernetes-sigs/kube-scheduler-wasm-extension": ""
         }
     },
     "status": {}
