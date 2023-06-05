@@ -19,7 +19,8 @@
             "cloudtty/cloudtty": "",
             "kubernetes-sigs/kwok": "",
             "kubernetes-sigs/kueue": "",
-            "kubernetes-sigs/kube-scheduler-wasm-extension": ""
+            "kubernetes-sigs/kube-scheduler-wasm-extension": "",
+            "fedstate/fedstate": ""
         }
     },
     "status": {}
