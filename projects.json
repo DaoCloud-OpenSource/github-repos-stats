@@ -5,7 +5,6 @@
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
             "hwameistor/hwameistor": "",
-            "kubernetes-sigs/kwok": "",
             "merbridge/merbridge": "",
             "clusterpedia-io/clusterpedia": "",
             "klts-io/kubernetes-lts": "",
@@ -39,7 +38,14 @@
             "vmware-tanzu/sonobuoy": "",
             "kubediag/kubediag": "",
             "apache/incubator-kyuubi": "",
-            "fanux/sealos": ""
+            "fanux/sealos": "",
+            "DaoCloud/DaoCloud-docs": "",
+            "cloudtty/cloudtty": "",
+            "kubernetes-sigs/kwok": "",
+            "kubernetes-sigs/kueue": "",
+            "kubernetes-sigs/kube-scheduler-wasm-extension": "",
+            "fedstate/fedstate": ""
+
         }
     },
     "status": {}
