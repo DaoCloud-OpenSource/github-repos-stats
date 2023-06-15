@@ -3,6 +3,7 @@
         "repos": {
             "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
+            "spidernet-io/egressgateway":"",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
             "hwameistor/hwameistor": "",
