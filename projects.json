@@ -20,7 +20,8 @@
             "kubernetes-sigs/kwok": "",
             "kubernetes-sigs/kueue": "",
             "kubernetes-sigs/kube-scheduler-wasm-extension": "",
-            "fedstate/fedstate": ""
+            "fedstate/fedstate": "",
+            "kdoctor-io/kdoctor": ""
         }
     },
     "status": {}
