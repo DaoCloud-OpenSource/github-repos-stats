@@ -24,6 +24,12 @@
             "fedstate/fedstate": "",
             "kdoctor-io/kdoctor": "",
             "miragedebug/miragedebug": "",
+            "kubernetes/kubeadm": "",
+            "kubernetes-sigs/kubespray": "",
+            "kubernetes/kubernetes": "",
+            "istio/istio": "",
+            "istio/istio.io": "",
+            "kubernetes/website": "",
             "minio/minio": ""
         }
     },
