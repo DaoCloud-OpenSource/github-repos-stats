@@ -23,8 +23,7 @@
             "kubernetes-sigs/kube-scheduler-wasm-extension": "",
             "fedstate/fedstate": "",
             "kdoctor-io/kdoctor": "",
-            "miragedebug/miragedebug": "",
-            "minio/minio": ""
+            "miragedebug/miragedebug": ""
         }
     },
     "status": {}
