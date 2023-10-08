@@ -4,6 +4,7 @@
             "DaoCloud/ckube": "",
             "spidernet-io/spiderpool": "",
             "spidernet-io/egressgateway":"",
+            "spidernet-io/spiderdoctor": "",
             "piraeusdatastore/piraeus": "",
             "piraeusdatastore/piraeus-operator": "",
             "hwameistor/hwameistor": "",
@@ -24,7 +25,9 @@
             "fedstate/fedstate": "",
             "kdoctor-io/kdoctor": "",
             "miragedebug/miragedebug": "",
-            "MorningSunKing/OpenSourceSoftwareCase-awesome": ""
+            "MorningSunKing/OpenSourceSoftwareCase-awesome": "",
+            "wasmCloud/kasmcloud": "",
+            "wzshiming/kube-activator": ""
         }
     },
     "status": {}
