@@ -22,12 +22,13 @@
             "kubernetes-sigs/kwok": "",
             "kubernetes-sigs/kueue": "",
             "kubernetes-sigs/kube-scheduler-wasm-extension": "",
-            "fedstate/fedstate": "",
+            "fedstate/fedstate": "Federated middleware based on Karmada",
             "kdoctor-io/kdoctor": "",
-            "miragedebug/miragedebug": "",
-            "MorningSunKing/OpenSourceSoftwareCase-awesome": "",
-            "wasmCloud/kasmcloud": "",
-            "wzshiming/kube-activator": ""
+            "miragedebug/miragedebug": "Local remote debugging for Kubernetes apps",
+            "MorningSunKing/OpenSourceSoftwareCase-awesome": "law",
+            "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
+            "wzshiming/kube-activator": "HPA from 0 to 1",
+            "Fish-pro/fast": "ebpf CNI"
         }
     },
     "status": {}
