@@ -28,7 +28,8 @@
             "MorningSunKing/OpenSourceSoftwareCase-awesome": "law",
             "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
             "wzshiming/kube-activator": "HPA from 0 to 1",
-            "Fish-pro/fast": "ebpf CNI"
+            "Fish-pro/fast": "ebpf CNI",
+            "DataTunerX/meta-server": ""
         }
     },
     "status": {}
