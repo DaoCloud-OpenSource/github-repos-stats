@@ -2,40 +2,40 @@
 
 <!--START_SECTION:github_repos-->
 ## The CNCF repos
-| ID | REPO | STARS | UPDATEDAT | CREATEDAT | FORKSCOUNT | DESCRIPTIONS |
-|----|------|-------|-----------|-----------|------------|--------------|
+| ID |                                            REPO                                             | STARS | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |                                                                                                       DESCRIPTIONS                                                                                                       |
+|----|---------------------------------------------------------------------------------------------|-------|------------|------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1 | [crossplane](https://github.com/crossplane/crossplane)                                      |  7984 | 2023-12-21 | 2018-09-08 |        827 | Cloud Native Control Planes                                                                                                                                                                                              |
+|  2 | [kubevela](https://github.com/kubevela/kubevela)                                            |  5813 | 2023-12-22 | 2020-07-03 |        848 | The Modern Application Platform.                                                                                                                                                                                         |
+|  3 | [karmada](https://github.com/karmada-io/karmada)                                            |  3752 | 2023-12-22 | 2020-11-10 |        787 | Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration                                                                                                                                                                |
+|  4 | [wayne](https://github.com/Qihoo360/wayne)                                                  |  3698 | 2023-12-20 | 2018-11-13 |        839 | Kubernetes multi-cluster management and publishing platform                                                                                                                                                              |
+|  5 | [cluster-api](https://github.com/kubernetes-sigs/cluster-api)                               |  3190 | 2023-12-21 | 2018-03-07 |       1258 | Home for Cluster API, a subproject of sig-cluster-lifecycle                                                                                                                                                              |
+|  6 | [choerodon](https://github.com/open-hand/choerodon)                                         |  2356 | 2023-12-20 | 2018-01-10 |        368 | Open Source Multi-Cloud Integrated Platform                                                                                                                                                                              |
+|  7 | [submariner](https://github.com/submariner-io/submariner)                                   |  2249 | 2023-12-20 | 2019-03-11 |        183 | Networking component for interconnecting Pods and Services across Kubernetes clusters.                                                                                                                                   |
+|  8 | [cloudpods](https://github.com/yunionio/cloudpods)                                          |  2166 | 2023-12-20 | 2018-07-27 |        458 | A cloud-native open-source unified multi-cloud and hybrid-cloud platform. 开源、云原生的多云管理及混合云融合平台                                                                                                         |
+|  9 | [tke](https://github.com/tkestack/tke)                                                      |  1408 | 2023-12-21 | 2019-11-06 |        328 | Native Kubernetes container management platform supporting multi-tenant and multi-cluster                                                                                                                                |
+| 10 | [clusternet](https://github.com/clusternet/clusternet)                                      |  1260 | 2023-12-20 | 2021-06-07 |        268 | [CNCF Sandbox Project] Managing your Kubernetes clusters (including public, private, edge, etc.) as easily as visiting the Internet ⎈                                                                                    |
+| 11 | [clusterpedia](https://github.com/clusterpedia-io/clusterpedia)                             |   687 | 2023-12-21 | 2021-10-08 |        115 | The Encyclopedia of Kubernetes clusters                                                                                                                                                                                  |
+| 12 | [ocm](https://github.com/open-cluster-management-io/ocm)                                    |   644 | 2023-12-20 | 2021-09-30 |         74 | Core components in the OCM project. Report here if you found any issues in OCM.                                                                                                                                          |
+| 13 | [skupper](https://github.com/skupperproject/skupper)                                        |   479 | 2023-12-19 | 2020-04-06 |         67 | Skupper is an implementation of a Virtual Application Network, enabling rich hybrid cloud communication.                                                                                                                 |
+| 14 | [flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy)                        |   445 | 2023-12-17 | 2020-11-27 |        225 | Manage multi-tenant clusters with Flux                                                                                                                                                                                   |
+| 15 | [armada](https://github.com/armadaproject/armada)                                           |   378 | 2023-12-20 | 2019-06-19 |        126 | A multi-cluster batch queuing system for high-throughput workloads on Kubernetes.                                                                                                                                        |
+| 16 | [k8s-multicluster-ingress](https://github.com/GoogleCloudPlatform/k8s-multicluster-ingress) |   376 | 2023-12-19 | 2017-10-19 |         71 | kubemci: Command line tool to configure L7 load balancers using multiple kubernetes clusters                                                                                                                             |
+| 17 | [mcs-api](https://github.com/kubernetes-sigs/mcs-api)                                       |   173 | 2023-12-14 | 2020-08-07 |         39 | This repository hosts the Multi-Cluster Service APIs. Providers can import packages in this repo to ensure their multi-cluster service controller implementations will be compatible with MCS data planes.               |
+| 18 | [Beetle](https://github.com/Clivern/Beetle)                                                 |   164 | 2023-12-20 | 2020-02-01 |         15 | 🔥  Kubernetes multi-cluster deployment automation service.                                                                                                                                                              |
+| 19 | [ferry](https://github.com/ferryproxy/ferry)                                                |   104 | 2023-12-20 | 2021-10-18 |          6 | Ferry is a Kubernetes multi-cluster communication component that eliminates communication differences between clusters as if they were in a single cluster, regardless of the network environment those clusters are in. |
+| 20 | [dashboard](https://github.com/kore3lab/dashboard)                                          |    35 | 2023-08-09 | 2020-04-21 |         12 | Kubernetes multi-clusters dashboard                                                                                                                                                                                      |
+| 21 | [ctl](https://github.com/wish/ctl)                                                          |    29 | 2023-10-11 | 2019-07-16 |          6 | multi-cluster kubectl                                                                                                                                                                                                    |
+| 22 | [about-api](https://github.com/kubernetes-sigs/about-api)                                   |    28 | 2023-11-09 | 2021-04-06 |         12 | A CRD for arbitrary properties about a cluster                                                                                                                                                                           |
+| 23 | [fake-k8s](https://github.com/wzshiming/fake-k8s)                                           |    17 | 2023-01-06 | 2020-09-10 |          1 | [Moved to https://github.com/kubernetes-sigs/kwok] fake-k8s is a tool for running Fake Kubernetes clusters, It can be used as an alternative to Kind in some scenarios where you don’t need to actually run the Pod      |
+| 24 | [multicluster-dns](https://github.com/coredns/multicluster-dns)                             |    11 | 2022-04-30 | 2019-11-14 |          3 | An example of how to use the kubernetai plugin to do multicluster DNS-based service discovery                                                                                                                            |
+| 25 | [cluster-reconciler](https://github.com/vllry/cluster-reconciler)                           |     5 | 2023-03-22 | 2020-04-14 |          4 | cluster-reconciler                                                                                                                                                                                                       |
 
 
 
 ## Skipped repos
-tkestack/tke
-vllry/cluster-reconciler
-clusternet/clusternet
 kubernetes-sigs/kubefed
-submariner-io/submariner
-Qihoo360/wayne
-Clivern/Beetle
-wzshiming/fake-k8s
-kubevela/kubevela
-karmada-io/karmada
-fluxcd/flux2-multi-tenancy
-G-Research/armada
-coredns/multicluster-dns
-skupperproject/skupper
-yunionio/cloudpods
-ferry-proxy/ferry
-open-cluster-management-io/OCM
-kubernetes-sigs/mcs-api
-kubernetes-sigs/cluster-api
 kubesphere/tower
-kore3lab/kore-dashboard
-clusterpedia-io/clusterpedia
-kubernetes-sigs/about-api
-kubernetes-sigs/work-api
-wish/ctl
-GoogleCloudPlatform/k8s-multicluster-ingress
-open-hand/choerodon
-crossplane/crossplane<!--END_SECTION:github_repos-->
+kubernetes-sigs/work-api<!--END_SECTION:github_repos-->
 
 # Build
 
