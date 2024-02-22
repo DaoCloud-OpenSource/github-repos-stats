@@ -32,7 +32,8 @@
             "wzshiming/kube-activator": "HPA from 0 to 1",
             "Fish-pro/fast": "ebpf CNI",
             "DataTunerX/meta-server": "",
-            "InftyAI/llmlite": ""
+            "InftyAI/llmlite": "",
+            "DataTunerX/datatunerx": ""
         }
     },
     "status": {}
