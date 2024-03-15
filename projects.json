@@ -1,18 +1,18 @@
 { 
     "spec": {
         "repos": {
-            "DaoCloud/ckube": "",
-            "spidernet-io/spiderpool": "",
-            "spidernet-io/egressgateway":"",
-            "spidernet-io/spiderdoctor": "",
-            "piraeusdatastore/piraeus": "",
-            "piraeusdatastore/piraeus-operator": "",
-            "hwameistor/hwameistor": "",
-            "hwameistor/drbd-adapter": "",
-            "merbridge/merbridge": "",
-            "clusterpedia-io/clusterpedia": "",
-            "klts-io/kubernetes-lts": "",
-            "kubean-io/kubean": "",
+            "DaoCloud/ckube": "archived",
+            "spidernet-io/spiderpool": "网络团队,cni 网络方案",
+            "spidernet-io/egressgateway":"网络团队,出口网关",
+            "spidernet-io/spiderdoctor": "网络团队，网络诊断，chaos engineering",
+            "piraeusdatastore/piraeus": "存储",
+            "piraeusdatastore/piraeus-operator": "存储",
+            "hwameistor/hwameistor": "存储，本地存储",
+            "hwameistor/drbd-adapter": "存储",
+            "merbridge/merbridge": "服务网格，ebpf",
+            "clusterpedia-io/clusterpedia": "多集群，聚合搜索",
+            "klts-io/kubernetes-lts": "Long Term Support,sig-release,wg-lts",
+            "kubean-io/kubean": "集群安装，生命周期管理，kubespray",
             "kubean-io/kube-node-tuning": "",
             "DaoCloud/public-image-mirror": "",
             "DaoCloud/dao-2048": "",            
@@ -33,7 +33,8 @@
             "Fish-pro/fast": "ebpf CNI",
             "DataTunerX/meta-server": "",
             "InftyAI/llmlite": "",
-            "DataTunerX/datatunerx": ""
+            "DataTunerX/datatunerx": "",
+            "kubernetes-sigs/lws": ""
         }
     },
     "status": {}
