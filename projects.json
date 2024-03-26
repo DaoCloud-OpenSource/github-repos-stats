@@ -34,7 +34,8 @@
             "DataTunerX/meta-server": "",
             "InftyAI/llmlite": "",
             "DataTunerX/datatunerx": "",
-            "kubernetes-sigs/lws": ""
+            "kubernetes-sigs/lws": "",
+            "Project-HAMi/HAMi": ""
         }
     },
     "status": {}
