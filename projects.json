@@ -35,7 +35,9 @@
             "InftyAI/llmlite": "",
             "DataTunerX/datatunerx": "",
             "kubernetes-sigs/lws": "",
-            "Project-HAMi/HAMi": ""
+            "Project-HAMi/HAMi": "",
+            "nekomeowww/ollama-operator": "",
+            "wzshiming/jitdi": ""
         }
     },
     "status": {}
