@@ -28,7 +28,12 @@
             "kore3lab/kore-dashboard": "",
             "kubevela/kubevela": "",
             "yunionio/cloudpods": "",
-            "open-hand/choerodon": ""
+            "open-hand/choerodon": "",
+            "istio/istio": "",
+            "cilium/cilium": "",
+            "kubernetes/kops": "multi-cluster installer",
+            "kubernetes-sigs/kubespray": "multi-cluster installer",
+            "kubean-io/kubean": "multi-cluster installer"
         }
     },
     "status": {}
