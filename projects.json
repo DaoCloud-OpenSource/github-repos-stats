@@ -45,7 +45,9 @@
             "spidernet-io/spiderpool": "网络团队,cni 网络方案",
             "wzshiming/jitdi": "",
             "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
-            "wzshiming/kube-activator": "HPA from 0 to 1"
+            "wzshiming/kube-activator": "HPA from 0 to 1",
+            "koffloader-io/koffloader": "", 
+            "wzshiming/crproxy": ""
         }
     },
     "status": {}
