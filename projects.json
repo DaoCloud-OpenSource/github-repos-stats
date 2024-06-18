@@ -1,13 +1,15 @@
 { 
     "spec": {
         "repos": {
+            "BaizeAI/baize-ai-download": "",
+            "DaoCloud/DaoCloud-docs": "",
             "DaoCloud/ckube": "archived",
-            "DaoCloud/public-image-mirror": "",
+            "DaoCloud/crproxy": "",
             "DaoCloud/dao-2048": "",            
             "DaoCloud/daochain": "",            
             "DaoCloud/dao-style": "",   
             "DaoCloud/ropee": "",   
-            "DaoCloud/DaoCloud-docs": "",
+            "DaoCloud/public-image-mirror": "",
             "DataTunerX/datatunerx": "",
             "DataTunerX/meta-server": "",
             "Fish-pro/fast": "ebpf CNI",
@@ -24,6 +26,7 @@
             "kdoctor-io/kdoctor": "",
             "karmada-io/karmada": "",
             "klts-io/kubernetes-lts": "Long Term Support,sig-release,wg-lts",
+            "koffloader-io/koffloader": "", 
             "kubean-io/kubean": "集群安装，生命周期管理，kubespray",
             "kubean-io/kube-node-tuning": "",
             "kubeedge/kubeedge": "",
@@ -43,11 +46,9 @@
             "spidernet-io/egressgateway":"网络团队,出口网关",
             "spidernet-io/spiderdoctor": "网络团队，网络诊断，chaos engineering",
             "spidernet-io/spiderpool": "网络团队,cni 网络方案",
-            "wzshiming/jitdi": "",
             "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
-            "wzshiming/kube-activator": "HPA from 0 to 1",
-            "koffloader-io/koffloader": "", 
-            "wzshiming/crproxy": ""
+            "wzshiming/jitdi": "",
+            "wzshiming/kube-activator": "HPA from 0 to 1"
         }
     },
     "status": {}
