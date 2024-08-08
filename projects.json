@@ -2,6 +2,7 @@
     "spec": {
         "repos": {
             "BaizeAI/baize-ai-download": "",
+            "BaizeAI/kube-snapshot": "",
             "DaoCloud/DaoCloud-docs": "",
             "DaoCloud/ckube": "archived",
             "DaoCloud/crproxy": "",
