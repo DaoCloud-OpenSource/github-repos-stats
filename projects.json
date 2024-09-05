@@ -38,6 +38,7 @@
             "kubernetes-sigs/kueue": "",
             "kubernetes-sigs/kwok": "",
             "kubernetes-sigs/lws": "",
+            "lingticio/llmg": "",
             "merbridge/merbridge": "服务网格，ebpf",
             "minio/minio": "",
             "miragedebug/miragedebug": "Local remote debugging for Kubernetes apps",
