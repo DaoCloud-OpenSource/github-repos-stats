@@ -41,6 +41,7 @@
             "kubernetes-sigs/kueue": "",
             "kubernetes-sigs/kwok": "",
             "kubernetes-sigs/lws": "",
+            "kun303-cloud/environment-variables-status-sync": "",
             "lingticio/llmg": "",
             "lingticio/neuri-js": "",
             "merbridge/merbridge": "服务网格，ebpf",
