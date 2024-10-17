@@ -18,19 +18,9 @@
             "DaoCloud/ropee": "",   
             "DaoCloud/DaoCloud-docs": "",
             "cloudtty/cloudtty": "",
-            "kubernetes-sigs/kwok": "",
-            "kubernetes-sigs/kueue": "",
-            "kubernetes-sigs/kube-scheduler-wasm-extension": "",
             "fedstate/fedstate": "",
             "kdoctor-io/kdoctor": "",
-            "miragedebug/miragedebug": "",
-            "kubernetes/kubeadm": "",
-            "kubernetes-sigs/kubespray": "",
-            "kubernetes/kubernetes": "",
-            "istio/istio": "",
-            "istio/istio.io": "",
-            "kubernetes/website": "",
-            "minio/minio": ""
+            "miragedebug/miragedebug": ""
         }
     },
     "status": {}
