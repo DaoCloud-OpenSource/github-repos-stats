@@ -17,6 +17,7 @@
             "Fish-pro/fast": "ebpf CNI",
             "InftyAI/llmlite": "",
             "InftyAI/llmaz": "",
+            "InftyAI/Manta": "",
             "InftyAI/Awesome-LLMOps": "",
             "Project-HAMi/HAMi": "",
             "argoproj-labs/rollouts-plugin-trafficrouter-contour": "",
@@ -55,6 +56,8 @@
             "spidernet-io/spiderpool": "网络团队,cni 网络方案",
             "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
             "wzshiming/jitdi": "",
+            "wzshiming/democtl": "",
+            "wzshiming/subcluster": "",
             "wzshiming/kube-activator": "HPA from 0 to 1"
         }
     },
