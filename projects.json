@@ -33,7 +33,12 @@
             "cilium/cilium": "",
             "kubernetes/kops": "multi-cluster installer",
             "kubernetes-sigs/kubespray": "multi-cluster installer",
-            "kubean-io/kubean": "multi-cluster installer"
+            "kubean-io/kubean": "multi-cluster installer",
+            "Azure/fleet": "",
+            "kubernetes-sigs/kueue": "",
+            "kubestellar/kubestellar": "",
+            "kubewharf/kubeadmiral": "",
+            
         }
     },
     "status": {}
