@@ -20,7 +20,8 @@
             "cloudtty/cloudtty": "",
             "fedstate/fedstate": "",
             "kdoctor-io/kdoctor": "",
-            "miragedebug/miragedebug": ""
+            "miragedebug/miragedebug": "",
+            "Project-HAMi/HAMi": ""
         }
     },
     "status": {}
