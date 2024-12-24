@@ -8,6 +8,7 @@ This branch is for CNCF related repos of DaoCloud.
 
 <!--START_SECTION:github_repos-->
 ### The DaoCloud open-source repos
+
 | ID |                                                      REPO                                                       | STARS  | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |                                                                                                                                        DESCRIPTIONS                                                                                                                                         |
 |----|-----------------------------------------------------------------------------------------------------------------|--------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  1 | [kubernetes](https://github.com/kubernetes/kubernetes)                                                          | 111898 | 2024-12-23 | 2014-06-06 |      39893 | Production-Grade Container Scheduling and Management                                                                                                                                                                                                                                        |
@@ -67,7 +68,6 @@ This branch is for CNCF related repos of DaoCloud.
 | 55 | [baize-ai-download](https://github.com/BaizeAI/baize-ai-download)                                               |      1 | 2024-09-19 | 2024-03-13 |          0 | baize-ai-download                                                                                                                                                                                                                                                                           |
 | 56 | [subcluster](https://github.com/wzshiming/subcluster)                                                           |      1 | 2024-11-15 | 2024-09-09 |          0 | This is a subcluster of Kubernetes clusters                                                                                                                                                                                                                                                 |
 | 57 | [environment-variables-status-sync](https://github.com/kun303-cloud/environment-variables-status-sync)          |      0 | 2024-10-13 | 2024-09-14 |          1 | environment-variables-status-sync                                                                                                                                                                                                                                                           |
-
 
 
 #### Skipped repos
