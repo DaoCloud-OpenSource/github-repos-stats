@@ -3,7 +3,7 @@ name: Run for main(all CNCF China related projects)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * 1-5"
+    - cron: "0 8/12 * * 1-5"
   push:
     branches:
       - daocloud
