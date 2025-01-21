@@ -16,6 +16,7 @@
             "DataTunerX/meta-server": "",
             "ErikJiang/market_monitor": "",
             "Fish-pro/fast": "ebpf CNI",
+            "Iceber/iouring-go": "",
             "InftyAI/llmlite": "",
             "InftyAI/llmaz": "",
             "InftyAI/Manta": "",
