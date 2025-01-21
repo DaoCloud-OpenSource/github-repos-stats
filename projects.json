@@ -58,6 +58,7 @@
             "wasmCloud/kasmcloud": "WasmCloud + Kubernetes",
             "wzshiming/jitdi": "",
             "wzshiming/democtl": "",
+            "wzshiming/pic2ascii": "",
             "wzshiming/subcluster": "",
             "wzshiming/kube-activator": "HPA from 0 to 1"
         }
