@@ -33,6 +33,7 @@
             "karmada-io/karmada": "",
             "kdoctor-io/kdoctor": "",
             "klts-io/kubernetes-lts": "Long Term Support,sig-release,wg-lts",
+            "knoway-dev/knoway": "",
             "koffloader-io/koffloader": "", 
             "kubean-io/kubean": "集群安装，生命周期管理，kubespray",
             "kubean-io/kube-node-tuning": "",
