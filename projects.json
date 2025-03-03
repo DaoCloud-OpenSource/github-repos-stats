@@ -38,7 +38,12 @@
             "kubernetes-sigs/kueue": "",
             "kubestellar/kubestellar": "",
             "kubewharf/kubeadmiral": "",
-            "clastix/kamaji": ""
+            "clastix/kamaji": "",
+            "backstage/backstage": "",
+            "pipe-cd/pipecd": "",
+            "armadaproject/armada": "",
+            "argoproj/argo-cd": "",
+            "linkerd/linkerd2": ""
         }
     },
     "status": {}
