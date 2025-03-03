@@ -6,7 +6,7 @@ on:
     - cron: "0 */12 * * *"
   push:
     branches:
-      - main
+      - multi-clusters
 
 env:
   GITHUB_NAME: pacoxu
@@ -26,7 +26,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELE_CHAT_ID }}
 
       - name: My GitHub Status
-        uses: pacoxu/github-repos-stats@multi-clusters
+        uses: pacoxu/github-repos-stats@daocloud
       - name: Push README
         run: |
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
