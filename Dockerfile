@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine
+FROM golang:1.24-alpine
 
 ENV GOPROXY https://goproxy.cn
 RUN apk add git
