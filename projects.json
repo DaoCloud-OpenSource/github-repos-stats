@@ -37,7 +37,8 @@
             "Azure/fleet": "",
             "kubernetes-sigs/kueue": "",
             "kubestellar/kubestellar": "",
-            "kubewharf/kubeadmiral": ""
+            "kubewharf/kubeadmiral": "",
+            "clastix/kamaji": ""
         }
     },
     "status": {}
