@@ -9,8 +9,9 @@ on:
       - multi-clusters
 
 env:
-  GITHUB_NAME: pacoxu
-  GITHUB_EMAIL: roollingstone@gmail.com
+  GITHUB_NAME: pacoxu-bot
+  GITHUB_EMAIL: paco2023@163.com
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -22,11 +23,11 @@ jobs:
         uses: ./
         with:
           WITH_STARED: false
-          TELEGRAM_TOKEN: ${{ secrets.TELE_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELE_CHAT_ID }}
 
       - name: My GitHub Status
         uses: pacoxu/github-repos-stats@daocloud
+        env:
+          GITHUB_TOKEN: "${{ env.GITHUB_TOKEN }}"
       - name: Push README
         run: |
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
