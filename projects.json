@@ -61,7 +61,8 @@
             "wzshiming/democtl": "",
             "wzshiming/pic2ascii": "",
             "wzshiming/subcluster": "",
-            "wzshiming/kube-activator": "HPA from 0 to 1"
+            "wzshiming/kube-activator": "HPA from 0 to 1",
+            "chaunceyjiang/fake-gpu": ""
         }
     },
     "status": {}
